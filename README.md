@@ -1,8 +1,32 @@
-# React + Vite
+# Install
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Use `npm i` to install the dependencies in the project.
 
-Currently, two official plugins are available:
+# Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use the `npm run dev` to run the app in development mode.
+
+# Build
+
+Use the `npm run build` to make the production build.
+
+# Prerequisites
+
+Add .env file with these variables
+
+```
+export VITE_BACKEND_API_URL = 'http://localhost:8090'
+```
+
+# Tech Stack Used
+
+- React
+- Vite
+- Tailwind | PostCSS | Autoprefixer
+
+# Pages
+
+### Home Page
+
+- This page is the Movies page where you can see all the Movies/Series being displayed.
+- The Header component houses search functionality to search the current list using year or title.
